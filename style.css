@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 body{
-    background-image: linear-gradient(to right, #FDED00,orange);
+    background-image: linear-gradient(to right, #fda900,orange);
     font-family: "Poppins", sans-serif;
     margin: 0;
     padding: 0;
@@ -22,7 +22,7 @@ body{
     width: 100%;
     padding: 30px;
     box-shadow: 8px 8px 40px #000;
-    background-image: linear-gradient(to right, #fded00,orange);
+    background-image: linear-gradient(to right, #fda900,orange);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -46,4 +46,36 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.data{
+    background-image: linear-gradient(to right, orange,red);
+    color: #000;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1px;
+}
+input[type="text"] {
+    background-color: transparent;
+    color: #000;
+    font-size: 17px;
+    font-family: 'Chakra Petch', sans-serif;
+    border-radius: 15px;
+    padding: 10px;
+    border: none;
+    margin-left: 25px;
+    outline: #000;
+}
+
+input[type="date"]{
+    background-color: transparent;
+    color: #000;
+    font-size: 14px;
+    font-family: 'Chakra Petch', sans-serif;
+    border-radius: 15px;
+    padding: 10px;
+    border: none;
+    margin-left: 25px;
+    outline: none   ;
 }

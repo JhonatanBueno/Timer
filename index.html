@@ -9,48 +9,57 @@
 </head>
 
 <body>
-    <section class="formulario">
-        <form action="" class="data">
-            <div class="dia">
-                <label for="Dia">Dia:</label>
-                <input class="input-dia" type="text">
-            </div>
-            <div class="mes">
-                <label for="Mês">Mês:</label>
-                <input class="input-mes" type="text">
-            </div>
-            <div class="ano">
-                <label for="Ano">Ano:</label>
-                <input class="input-ano" type="text">
-            </div>
-            <div class="hora">
-                <label for="Hora">Hora:</label>
-                <input class="input-hora" type="text">
-            </div>
-        </form>
-    </section>
     <section class="timer">
        
         <div class="temporizador">
             <div class="mostrador">
-                <h1>DIAS</h1>
+                <div class="texto-mostrador">
+                    <form action="" class="data">
+                        <div class="dia">
+                            <label for="Dia">Dia:</label>
+                            <input class="datae" type="date">
+                        </div>
+                        </form>
+                    <h1>DIAS</h1>
+                </div>
                 <p class="dias"></p>
             </div>
             <div class="mostrador">
+                <form action="" class="data">
+                    <div class="hora">
+                        <label for="Hora">Hora:</label>
+                        <input class="input-hora" type="text">
+                    </div>
+                </form>
                 <h1>HORAS</h1>
                 <p class="horas"></p>
             </div>
             <div class="mostrador">
+                <form action="" class="data">
+                <div class="minuto">
+                    <label for="Minutos" aria-placeholder="Minutos">Minutos:</label>
+                    <input class="input-minuto" type="text">
+                </div>
+                </form>
                 <h1>MINUTOS</h1>
                 <p class="minutos"></p>
             </div>
-            <div class="mostrador">
+            <div class="mostrador" class="data">
+                <form action="" class="data">
+                    <div class="segundo">
+                        <label for="Segundos">Segundos:</label>
+                        <input class="input-segundos" type="text">
+                    </div>
+                </form>
                 <h1>SEGUNDOS</h1>
                 <p class="segundos"></p>
             </div>
         </div>
     </section>
+ 
     <script src="script.js"></script>
+
+    
 </body>
 
 </html>
