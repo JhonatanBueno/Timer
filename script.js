@@ -43,6 +43,11 @@ function define(){
     const dataEscolhida = new Date(ano,mes,dia,horaEscolhida,segundosEscolhidos);
     console.log(dataEscolhida)
     const horaAtual = new Date();
+    if (dataEscolhida-horaAtual < 0){
+        window.alert("Coloque uma data no futuro")
+        window.location.reload()
+    }
+    else{
     let segundos = (dataEscolhida-horaAtual)/1000;
     let minutos = segundos/60;
     let horas = minutos/60;
@@ -55,7 +60,6 @@ function define(){
     minutos %= 60;
     segundos %= 60;
     
-    if (segundos >= 0){
         return [dias,horas,minutos,segundos]
     }
 }
